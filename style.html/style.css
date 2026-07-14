@@ -1,0 +1,30 @@
+.container{
+    max-width: 1200px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+    padding: 15px 40px;
+    background-color: white;
+}         
+.menubar{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+.button{
+    background: #2457ff;
+    color: white;
+    margin: auto;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 10px;
+}
+.button:hover{
+   /* color: #e3ad55; */
+   background: red;
+}
