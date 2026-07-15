@@ -1,14 +1,22 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 .container{
     max-width: 1200px;
+    margin: auto;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 20px auto;
-    padding: 15px 40px;
-    background-color: white;
+    margin:20px auto;
+    padding: 0px 40px;
+    background-color: rgb(22, 148, 216);
 }         
 .menubar{
     display: flex;
@@ -27,4 +35,63 @@
 .button:hover{
    /* color: #e3ad55; */
    background: red;
+}
+/* navbar end */
+/* banner saction start */
+.banner{
+    background-image:linear-gradient(
+        to right,
+        rgba(0,0,0,0.8) 0%,
+        rgba(0,0,0,0.6) 0%,
+        rgba(0,0,0,0.2) 70%,
+        rgba(0,0,0,0) 100%
+        ),
+     url(../image/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+}
+.banner-content{
+    width: 700px;
+    margin: 20px auto;
+}
+.banner h1{
+    color: white;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.banner p{
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    margin-bottom: 1px;
+}
+.btn{
+    background: #2457ff;
+    color: white;
+    margin: auto;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 300px;
+}
+.btn:hover{
+    background: red;
+}
+/* banner section end */
+/* card-section start */
+.card-section{
+    display: grid;
+    /* justify-content: space-between; */
+    grid-template-columns: 2, 1fr;
 }
