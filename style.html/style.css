@@ -11,12 +11,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
     width: 100%;
     margin:20px auto;
     padding: 0px 40px;
     background-color: white;
-    
-}         
+}      
 .menubar{
     display: flex;
     justify-content: center;
@@ -85,10 +85,11 @@
     background: #2457ff;
     color: white;
     margin: auto;
-    padding: 12px 28px;
+    padding: 12px 10px;
     border: none;
     border-radius: 10px;
     margin-top: 300px;
+    width: 50%;
 }
 .btn:hover{
     background: red;
@@ -255,7 +256,63 @@ button:hover{
     background:white;
     color: #3366ff;
 }
-/* card-srction-start */
+/* card-srction-end */
+/* footer-saction-start */
+
+.footer{
+    width: 100%
+    max-width:1200px;
+    margin:80px auto 30px; 
+    background-color: #1e293b;
+    padding: 30px;
+}
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.footer-logo img{
+    width:100px;
+    padding: 10px;
+    border: 5px solid blue;
+    border-radius: 10px;
+    background: white;
+}
+.footer-social{
+    display:flex;
+    border: 5px solid blue;
+    border-radius: 5px;
+    gap: 40px;
+    background: white;
+    padding: 10px;
+}
+.footer-social a{
+    text-decoration:none;
+    color:#1e293b;
+    font-size:22px;
+}
+.footer-social a:hover{
+    color:#2563eb;
+}
+.footer hr{
+    margin:30px 0 20px;
+    border:none;
+    border-top:1px solid #dcdcdc;
+}
+.footer-copy{
+    text-align:center;
+    color:#64748b;
+    font-size:15px;
+}
+(max-width:768px){
+.footer-top{
+    flex-direction:column;
+    gap:20px;
+}
+}
+.footer-mid{
+    color: white;
+}
 
 
 
